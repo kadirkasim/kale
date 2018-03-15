@@ -1,0 +1,126 @@
+#kale{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    top: 0px;
+    display: block;
+    position: fixed;
+    background-color: rgba(50,50,50,0.4);
+    font-family: 'Comic Sans MS';
+    z-index: 50;
+}
+
+.kale-inner{
+    width: 350px;
+    position: relative;
+    padding: 20px 20px;
+    border-radius: 20px;
+    top: 50%;
+    left: 0px;
+    margin: -180px auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 1px #333;
+}
+
+.icon{
+    font-size: 25px !important;
+    margin: 0px auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.kale-inner h1{
+    padding-top: 10px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: #444;
+}
+
+.kale-inner p{
+    padding: 10px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: #444;
+}
+
+.kale-inner input{
+    width: 90%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 13px;
+    display: block;
+    padding: 5px 8px;
+    margin: 10px auto;
+}
+
+.kale-inner input:focus{
+    outline: 0;
+}
+
+.kale-inner textarea{
+    width: 90%;
+    height: 150px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 13px;
+    display: block;
+    padding: 5px 8px;
+    margin: 10px auto;
+    resize:none;
+}
+
+.kale-inner button{
+    width: 120px !important;
+    padding: 8px 15px;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.kale-inner button:focus{
+    outline: 0;
+}
+
+.cancel{
+    background-color: #ce181e !important;
+}
+
+.noScroll{
+    overflow: hidden;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px){
+
+    .kale-inner{
+        width: 300px;
+        margin: -180px auto;
+    }
+
+
+    .kale-inner button{
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .kale-inner{
+        width: 240px;
+        margin: -180px auto;
+    }
+
+
+    .kale-inner button{
+        width: 80px !important;
+    }
+}
